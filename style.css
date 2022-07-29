@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+:root {
+    --yellow: #FFC233;
+    --red: #FF505F;
+}
+
+body {
+    background: url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    background-color: #212846e3;
+    opacity: .9;
+    z-index: -1;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 15vh;
+    position: relative;
+}
+
+/* list div -------------------------------------- */
+.navbar div:nth-child(2) {
+    position: absolute;
+    display: inline-block;
+    top: 48px;
+    left: 440px;
+}
+
+.list {
+    display: inline-block;
+}
+
+.list li {
+    display: inline-block;
+    list-style: none;
+    font-size: 22px;
+    margin: 0px 25px;
+    color: var(--yellow);
+}
+
+/* logo div  -----------------------------*/
+.navbar div:first-child {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    display: inline-block;
+}
+
+/* logo  */
+.navbar div img {
+    width: 150px;
+}
+
+/* nav button div ------------------------- */
+.navbar div:last-child {
+    position: absolute;
+    background-color: white;
+    display: inline-block;
+    right: 0px;
+    top: 35px;
+}
+
+/* navbar button   */
+.button-small {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--red);
+    border: none;
+    color: white;
+}
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+
+
+.hero {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.hero-heading {
+    font-size: 5rem;
+    margin: 0 20%;
+    margin-top: 70px;
+    color: var(--yellow);
+    font-family: 'Dela Gothic One', cursive;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.button-large {
+    padding: 20px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--red);
+    border: none;
+    color: white;
+    margin-top: 40px;
+}
+
+.bottom div img {
+    position: fixed;
+    right: 5em;
+    bottom: 2em;
+    width: 130px;
+}
